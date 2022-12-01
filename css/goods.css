@@ -5,7 +5,7 @@
 	width: 412px;
 	height: 233px;
 	padding: 14px;
-	background-image: url(../goods/images/bg_goods.png);
+	background-image: url(../discography/images/bg_goods.png);
 	background-position: 0 0;
 	background-repeat: no-repeat;
 }
@@ -33,7 +33,7 @@
 
 .price {
 	padding-top: 12px;
-	background-image: url(../goods/images/line_dash.gif);
+	background-image: url(../discography/images/line_dash.gif);
 	background-position: 0 0;
 	background-repeat: repeat-x;
 	color: #990000;
