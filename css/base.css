@@ -102,6 +102,31 @@ div#foot p#address {
 a:link, a:visited { color: #098BC4;}
 a:hover, a:active { text-decoration: underline;}
 
+/*20221120’Ç‰Á cha‚Ìaboutƒy[ƒW‚Åg‚Á‚Ä‚½‚à‚Ì‚ğˆÚA*/
+.img_wrap:hover img{
+  opacity: 0.6;
+  transition-duration: 0.3s;
+}
+/*20221120’Ç‰Á*/
+
+/*20221201’Ç‰Á ‰Ä‹x‚İ‡ì‚©‚çˆÚA*/
+#openTwitter {
+	color: #FFFFFF;
+	text-align: center;
+	border: 2px solid #191970;
+	background-color: #098BC4;
+	font-size: 48px;
+	border-radius: 16px;
+	padding: 50px;
+	margin: 10px 0px 10px 0px;
+}
+
+#openTwitter:hover {
+	opacity: 0.6;
+	transition-duration: 0.3s;
+}
+/*20221201’Ç‰Á*/
+
 /* ===== Clearfix ===== */
 .clearfix:after {
 	content: ".";
