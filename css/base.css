@@ -129,7 +129,7 @@ a:hover, a:active { text-decoration: underline;}
 
 /*20230112’Ç‰Á ‰Ä‹x‚İ‡ì‚©‚çˆÚA*/
 /* ========== ã‚É–ß‚éƒ{ƒ^ƒ“ ========== */
-.pagetop {
+.pagetopSwp {
 	color: #fff;
 	background-color: rgba(0,0,0,0);
 	text-decoration: none;
@@ -147,16 +147,16 @@ a:hover, a:active { text-decoration: underline;}
 	text-align: center;
 	cursor: pointer;
 }
-.pagetop-img {
+.pagetopSwp-img {
 	padding-top: 0rem;
 	max-width: auto;
 	height: 9.9rem;
 }
-.pagetop-img:hover {
+.pagetopSwp-img:hover {
 	opacity: 0.6;
 	transition-duration: 0.3s;
 }
-.pagetop:hover {
+.pagetopSwp:hover {
 	color: #fff !important;
 	/*background-color: #1f1fff;*/
 	text-decoration: none;
