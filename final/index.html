@@ -8,7 +8,8 @@
 <link href="../css/import.css" rel="stylesheet" type="text/css" media="all" />
 <!-- InstanceBeginEditable name="head" -->
 <link href="../css/final.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="stylesheet" href="../css/nyroModal.css" type="text/css" />
+<link href="../css/nyroModal.css" rel="stylesheet" type="text/css" media="all" />
+<link href="../css/swiper.css" rel="stylesheet" type="text/css" media="all" />
 <link rel="icon" href="https://alpha-gun.github.io/bargain/images/favicon.ico">
 <script src="https://code.jquery.com/jquery-1.4.4.min.js" integrity="sha256-UXNk8tRRYvtQN0N7W2y5U9ANmys7ebqH2f5X6m7mBww=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="../js/jquery.nyroModal-1.6.2.js"></script>
@@ -317,5 +318,30 @@ function MM_swapImage() { //v3.0
 	<!-- ▲foot -->
 	
 </div>
+
+<script src="../js/swiper.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script>
+//一番上に戻る
+jQuery(document).ready(function() {
+	var offset = 100;
+	var duration = 500;
+	jQuery(window).scroll(function() {
+		if (jQuery(this).scrollTop() > offset) {
+			jQuery('.pagetopSwp').fadeIn(duration);
+		} else {
+			jQuery('.pagetopSwp').fadeOut(duration);
+		}
+	});
+	jQuery('.pagetopSwp').click(function(event) {
+		event.preventDefault();
+		jQuery('html, body').animate({scrollTop: 0}, duration);
+		return false;
+	})
+});
+</script>
+
+<div class="pagetopSwp"><img src="../images/top.png" class="pagetopSwp-img"></div>
+
 </body>
 <!-- InstanceEnd --></html>

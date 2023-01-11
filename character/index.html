@@ -9,6 +9,7 @@
 <!-- InstanceBeginEditable name="head" -->
 <link href="../css/character.css" rel="stylesheet" type="text/css" media="all" />
 <!-- InstanceEndEditable -->
+<link href="../css/swiper.css" rel="stylesheet" type="text/css" media="all" />
 <link rel="icon" href="https://alpha-gun.github.io/bargain/images/favicon.ico">
 
 <!-- OGPの設定 -->
@@ -16,7 +17,7 @@
 <meta property="og:title" content="登場人物 &#124; コロ助合作 - FINAL BARGAIN - " />
 <meta property="og:description" content="コロ助合作後編 参加者募集中！" />
 <meta property="og:url" content="https://alpha-gun.github.io/bargain/character/" />
-<meta property="og:site_name" content="コロ助合作 - WINTER BARGAIN - " />
+<meta property="og:site_name" content="コロ助合作 - FINAL BARGAIN - " />
 <meta property="og:image" content="https://alpha-gun.github.io/bargain/images/twitter.png" />
 <!-- Twitterカードの設定 -->
 <meta name="twitter:card" content="summary_large_image" />
@@ -151,5 +152,30 @@ function MM_swapImage() { //v3.0
 	<!-- ▲foot -->
 	
 </div>
+
+<script src="../js/swiper.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script>
+//一番上に戻る
+jQuery(document).ready(function() {
+	var offset = 100;
+	var duration = 500;
+	jQuery(window).scroll(function() {
+		if (jQuery(this).scrollTop() > offset) {
+			jQuery('.pagetopSwp').fadeIn(duration);
+		} else {
+			jQuery('.pagetopSwp').fadeOut(duration);
+		}
+	});
+	jQuery('.pagetopSwp').click(function(event) {
+		event.preventDefault();
+		jQuery('html, body').animate({scrollTop: 0}, duration);
+		return false;
+	})
+});
+</script>
+
+<div class="pagetopSwp"><img src="../images/top.png" class="pagetopSwp-img"></div>
+
 </body>
 <!-- InstanceEnd --></html>
