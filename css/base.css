@@ -127,6 +127,42 @@ a:hover, a:active { text-decoration: underline;}
 }
 /*20221201í«â¡*/
 
+/*20230112í«â¡ âƒãxÇ›çáçÏÇ©ÇÁà⁄êA*/
+/* ========== è„Ç…ñﬂÇÈÉ{É^Éì ========== */
+.pagetop {
+	color: #fff;
+	background-color: rgba(0,0,0,0);
+	text-decoration: none;
+	display: none;
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	font-size: 1.5rem;
+	/*
+	width: 9.9rem;
+	height: 9.9rem;
+	line-height: 9.9rem;
+	border-radius: 9.9rem;
+	*/
+	text-align: center;
+	cursor: pointer;
+}
+.pagetop-img {
+	padding-top: 0rem;
+	max-width: auto;
+	height: 9.9rem;
+}
+.pagetop-img:hover {
+	opacity: 0.6;
+	transition-duration: 0.3s;
+}
+.pagetop:hover {
+	color: #fff !important;
+	/*background-color: #1f1fff;*/
+	text-decoration: none;
+}
+/*20230112í«â¡*/
+
 /* ===== Clearfix ===== */
 .clearfix:after {
 	content: ".";
