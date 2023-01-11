@@ -5,6 +5,7 @@
 <title>コロ助合作 - FINAL BARGAIN - </title>
 <link href="css/import.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/index.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/swiper.css" rel="stylesheet" type="text/css" media="all" />
 <link rel="icon" href="https://alpha-gun.github.io/bargain/images/favicon.ico">
 
 <!-- OGPの設定 -->
@@ -114,7 +115,8 @@ function MM_swapImage() { //v3.0
          <a href="https://www.nicovideo.jp/watch/sm41612488" target="_blank" class="img_wrap"><img src="images/top/banner_s_05.png" alt="" width="164" height="63" /></a>
         </div>
       </div>
-        <p id="update">最終更新日：2023/01/06</p>
+
+        <p id="update">最終更新日：2023/01/12</p>
 
         <a href="https://twitter.com/intent/tweet?text=コロ助合作 - FINAL BARGAIN -&url=https://alpha-gun.github.io/bargain/&hashtags=コロ助合作" target="_blank">
         <div id="openTwitter">
@@ -132,5 +134,30 @@ function MM_swapImage() { //v3.0
 	<!-- ▲foot -->
 	
 </div>
+
+<script src="js/swiper.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script>
+//一番上に戻る
+jQuery(document).ready(function() {
+	var offset = 100;
+	var duration = 500;
+	jQuery(window).scroll(function() {
+		if (jQuery(this).scrollTop() > offset) {
+			jQuery('.pagetop').fadeIn(duration);
+		} else {
+			jQuery('.pagetop').fadeOut(duration);
+		}
+	});
+	jQuery('.pagetop').click(function(event) {
+		event.preventDefault();
+		jQuery('html, body').animate({scrollTop: 0}, duration);
+		return false;
+	})
+});
+</script>
+
+<div class="pagetop"><img src="images/top.png" class="pagetop-img"></div>
+
 </body>
 </html>
