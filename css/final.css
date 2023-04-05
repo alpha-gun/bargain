@@ -69,7 +69,21 @@ div#contents #benefit li {
 	background-repeat: no-repeat;
 }
 
-
+/* コロ助合作用 */
+#tracklist_kouhen {
+	padding: 17px 22px 1px;
+	font-size: 14px;
+	background-image: url(../final/images/bg_present2.png);
+	height: 725px;
+	background-repeat: no-repeat;
+}
+#tracklist_kan {
+	padding: 17px 22px 1px;
+	font-size: 14px;
+	background-image: url(../final/images/bg_present3.png);
+	height: 445px;
+	background-repeat: no-repeat;
+}
 
 #congratulations {
 	padding: 17px 22px 1px;
