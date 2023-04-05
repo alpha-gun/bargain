@@ -3,7 +3,8 @@
 
 #branding {
 	width: 845px;
-	height: 412px;
+	/*height: 412px;*/
+	height: 700px;
 	padding: 20px 35px 20px 20px;
 	margin-bottom: 16px;
 	background-image: url(../images/top/bg_branding.png);
