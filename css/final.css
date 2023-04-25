@@ -45,8 +45,9 @@ div#contents #benefit li {
 #contents #disc2 {
 	margin-bottom: 12px;
 	text-align: center;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	font-size: 18px;
+	font-family: 'RocknRoll One', sans-serif;
 }
 
 #contents #samples {

@@ -7,11 +7,13 @@ body {
 	padding: 0px;
 	color: #000000;
 	/*font-family: "‚l‚r ‚oƒSƒVƒbƒN", Osaka, "ƒqƒ‰ƒMƒmŠpƒS Pro W3";*/
-	font-family: 'M PLUS 1p', sans-serif;
+	/*font-family: 'M PLUS 1p', sans-serif;*/
+	font-family: 'Noto Sans JP', sans-serif;
 	line-height: 1.4;
 	font-size: 105%;
 	text-align: center;
-	background-color: #F3F7FD;
+	/*background-color: #F3F7FD;*/
+	background-color: #FFFFFF;
 }
 
 div#wrap {
