@@ -4,7 +4,7 @@
 #cd_info {
 	padding: 24px 20px 0;
 	margin-bottom: 29px;
-	height: 1480px;
+	height: 1980px;
 	background-image: url(../final/images/bg_cd_info.png);
 	background-position: 0 0;
 	background-repeat: no-repeat;
@@ -31,7 +31,7 @@ div#contents #benefit { margin: 0;}
 div#contents #benefit li {
 	margin: 0 0 14px;
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 29px;
 }
 
@@ -93,7 +93,7 @@ div#contents #benefit li {
 	background-repeat: no-repeat;
 }
 
-#cd_txt { width: 588px; font-size: 14px;}
+#cd_txt { width: 860px; font-size: 20px;}
 
 #cong_txt { width: 588px; font-size: 17.5px;}
 
