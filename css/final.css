@@ -46,7 +46,7 @@ div#contents #benefit li {
 	margin-bottom: 12px;
 	text-align: center;
 	/*font-weight: bold;*/
-	font-size: 18px;
+	font-size: 36px;
 	font-family: 'RocknRoll One', sans-serif;
 }
 
@@ -64,23 +64,23 @@ div#contents #benefit li {
 
 #tracklist {
 	padding: 17px 22px 1px;
-	font-size: 14px;
+	font-size: 17.5px;
 	background-image: url(../final/images/bg_present.png);
-	height: 645px;
+	height: 1020px;
 	background-repeat: no-repeat;
 }
 
 /* コロ助合作用 */
 #tracklist_kouhen {
 	padding: 17px 22px 1px;
-	font-size: 14px;
+	font-size: 17.5px;
 	background-image: url(../final/images/bg_present2.png);
-	height: 725px;
+	height: 1170px;
 	background-repeat: no-repeat;
 }
 #tracklist_kan {
 	padding: 17px 22px 1px;
-	font-size: 14px;
+	font-size: 18.5px;
 	background-image: url(../final/images/bg_present3.png);
 	height: 445px;
 	background-repeat: no-repeat;
@@ -89,13 +89,15 @@ div#contents #benefit li {
 #congratulations {
 	padding: 17px 22px 1px;
 	background-image: url(../final/images/bg_congratulations.png);
-	height: 560px;	/* 高さ設定追加(スマートフォンで表示が崩れる為) */
+	height: 900px;	/* 高さ設定追加(スマートフォンで表示が崩れる為) */
 	background-repeat: no-repeat;
 }
 
-#cong_txt { width: 588px; font-size: 14px;}
+#cd_txt { width: 588px; font-size: 14px;}
+
+#cong_txt { width: 588px; font-size: 17.5px;}
 
 #contact {
 	text-align: center;
-	font-size: 14px;
+	font-size: 16px;
 }
