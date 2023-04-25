@@ -21,7 +21,8 @@
 .goods_box th {
 	padding-bottom: 10px;
 	font-size: 18px;
-	font-weight: bold;
+	/*font-weight: bold;*/
+	font-family: 'RocknRoll One', sans-serif;
 }
 
 .item_photo { width: 212px;}
