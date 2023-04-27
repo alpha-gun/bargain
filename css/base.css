@@ -42,14 +42,16 @@ div#contents {
 
 /* ===== menu ===== */
 div#menu {
-	width: 493px;
-	height: 92px;
+	/*width: 493px;
+	height: 92px;*/
 	background-image: url(../images/bg_menu.png);
+	width: 350px;
+	height: 120px;
 	position: absolute;
-	top: 0px;
-	right: 27px;
+	top: 35px; /*0px;*/
+	right: 177px; /*27px;*/
 	background-repeat: no-repeat;
-	padding-top: 29px;
+	padding-top: 0px; /*29px;*/
 }
 
 div#menu ul {
@@ -60,22 +62,26 @@ div#menu ul {
 div#menu ul li {
 	float: left;
 	display: block;
-	margin-right: 14px;
-	margin-bottom: 22px;
+	padding-top: 4px;
+	margin-left: 3px;
+	margin-right: 1px; /*14px;*/
+	margin-bottom: 1px; /*22px;*/
 }
 
 div#menu ul li.mdl {
 	float: left;
 	display: block;
-	margin-right: 15px;
-	margin-bottom: 22px;
+	padding-top: 4px;
+	margin-right: 0px; /*15px;*/
+	margin-bottom: 1px; /*22px;*/
 }
 
 div#menu ul li.last {
 	float: left;
 	display: block;
+	padding-top: 4px;
 	margin-right: 0px;
-	margin-bottom: 22px;
+	margin-bottom: 1px; /*22px;*/
 }
 
 
