@@ -26,11 +26,11 @@
 }
 
 #news td {
-	padding: 5px;
+	padding: 6px;
 	background-image: url(../images/top/line_dash.gif);
 	background-position: bottom;
 	background-repeat: repeat-x;
-	font-size: 12px;
+	font-size: 13px;
 }
 
 h2 { margin-bottom: 16px;}
